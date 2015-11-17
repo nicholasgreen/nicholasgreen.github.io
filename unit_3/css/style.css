@@ -1,0 +1,101 @@
+body {
+	background-color: #e4e9ec;
+	text-align: center;
+  	color: #fff;
+  	font-family: Helvetica;
+}
+
+.container p {
+	font-size: 1.5rem;
+    line-height: 42px;
+    font-family:'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-weight:300;
+	
+}
+
+.container img {
+	width:400px;
+	padding-top: 12rem;
+
+}
+
+.hero {
+	background: url(../images/hero.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+.about h3{
+	padding:4rem;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    font-weight:300;
+
+}
+.herotwo {
+	background: url(../images/herotwo.jpg) no-repeat center center;
+	background-size: cover;
+	height: 70vh;
+
+}
+
+.strategy h3{
+	padding:1rem;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    font-weight:300;
+}
+
+.strategy h2{
+	padding:1rem;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-weight:500;
+}
+
+.strategy {
+	padding-right:8rem;
+	padding-left:8rem;
+	padding-bottom:2rem;
+}
+
+.strategy li{
+	text-align:justify;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-weight:300;
+}
+.strategy hr {
+
+	margin:2rem;
+}
+
+.contact {
+	background:#fff;
+	padding:1rem;
+}
+.contact h3{
+	color:#404f59;
+	text-decoration:none;
+}
+.contact p{
+	color:#404f59;
+	text-decoration: none;
+}

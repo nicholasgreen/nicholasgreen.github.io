@@ -1,0 +1,123 @@
+body {
+	background-color: #fff;
+  	color: #fff;
+  	font-family: Helvetica;
+  	margin: 0;
+}
+
+header {
+	height: 2rem;
+	background: white;
+}
+
+#main-heading {
+	font-family: Lato-Regular;
+	font-size: 60px;
+	color: #FFFFFF;
+	line-height: 62px;
+	padding-left: 6rem;
+	padding-top: 8rem;
+}
+
+h1 span{
+	color: #FDAC2A;
+}
+
+.container p {
+	font-size: 1.5rem;
+    line-height: 42px;
+    font-family:'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-weight:300;
+	
+}
+
+#logo img {
+	width:160px;
+	padding-bottom: 1rem;
+	padding-left: 4rem;
+	padding-top: 1rem;
+	float: left;
+
+}
+
+#lion-hero {
+	background: url(../images/hero.jpg) no-repeat center center;
+	width:100%;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+.about h3{
+	padding:4rem;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    font-weight:300;
+
+}
+.herotwo {
+	background: url(../images/herotwo.jpg) no-repeat center center;
+	background-size: cover;
+	height: 70vh;
+
+}
+
+.strategy h3{
+	padding:1rem;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    font-weight:300;
+}
+
+.strategy h2{
+	padding:1rem;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-weight:500;
+}
+
+.strategy {
+	padding-right:8rem;
+	padding-left:8rem;
+	padding-bottom:2rem;
+}
+
+.strategy li{
+	text-align:justify;
+	color:#404f59;
+	width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-weight:300;
+}
+.strategy hr {
+
+	margin:2rem;
+}
+
+.contact {
+	background:#fff;
+	padding:1rem;
+}
+.contact h3{
+	color:#404f59;
+	text-decoration:none;
+}
+.contact p{
+	color:#404f59;
+	text-decoration: none;
+}

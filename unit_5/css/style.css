@@ -7,21 +7,34 @@ body {
   	font-size:100%;
   	margin: 0;
 }
+h2 span {
+	background-color: rgba(253,172,42,0.79);
+
+}
+
+h1 span{
+	color: #FDAC2A;
+
+}
+
 .about {
 	position:relative;
+	clear:both;
 }
 .about h3{
 	font-family: Georgia, times, serif;
-	font-size: 1.2rem;
+	font-size: 1.2em;
 	color: #545454;
 	line-height: 2em;
-	letter-spacing: 0.05rem;
+	letter-spacing: 0.05em;
 	font-weight: 300;
-	width:45rem;
+	width:50%;
 	display: inline-block;
-	position:absolute;
-	top:50%;
-	transform:translateY(-50%);
+	float:left;
+	/*position:absolute;
+	top:50%;*/
+	margin: 5em 0 5em 8em;
+	/*transform:translateY(-50%);*/
 
 }
 
@@ -29,37 +42,41 @@ body {
 	display: block;
 	width: 30rem;
 	float:right;
+	padding:5em;
 }
 
 .abouttwo img{
 	display: inline-block;
-	width: 30rem;
-	padding:2rem;
+	width: 30%;
+	padding:5em;
 
 }
 
 .abouttwo h3{
-	display: inline-block;
-	font-family: Georgia;
-	font-size: 1.2rem;
+	font-family: Georgia, times, serif;
+	font-size: 1.2em;
 	color: #545454;
-	line-height: 2rem;
-	letter-spacing: 0.05rem;
+	line-height: 2em;
+	letter-spacing: 0.05em;
 	font-weight: 300;
-	width:45rem;
+	width:54%;
+	display: inline-block;
 	float: right;
-	margin-top: 7rem;
-	margin-right: 2rem;
+	margin: 5em 5em 5em 0;
 
+}
+
+#expertise-hero {
+	clear:both;
 }
 
 #expertise-hero h2{
 	font-family: Lato;
 	font-weight: 600;
-	font-size: 3rem;
+	font-size: 3em;
 	color: #FDAC2A;
-	padding-left: 6rem;
-	padding-top:2rem;
+	padding-left: 2em;
+	padding-top: 2em;
 
 }
 
@@ -85,7 +102,7 @@ body {
 	float:left;
 	letter-spacing: 0.05rem;
 	line-height: 2rem;
-	margin:.25%;
+	margin: 8% 0.25% 0% 0.25%;
 	padding: 1.5rem;
 	font-weight:300;
 	background-color: rgba(253,172,42,0.85);
@@ -133,7 +150,7 @@ body {
 	font-family: Lato-Regular;
 	font-size: 1.3rem;
 	color: #fff;
-	padding-right: 3rem;
+	padding-right: 5rem;
 	font-weight: 300;
 	padding-top: 1.5rem;
 }
@@ -142,59 +159,58 @@ body {
 	display: inline-block;
 	font-family: Lato-Regular;
 	font-size: 1.3rem;
-	padding-right: 3rem;
+	padding-right: 5rem;
 	font-weight: 300;
 	padding-top: 1.5rem;
 
 }
 
-#navbar {
+#contact-link h2{
+	padding-right: 2em;
+}
+
+#contact-link h2:hover{
+	padding-right: 2em;
+}
+
+#navbar a{
 	float:right;
-	padding-right: 3rem
 	display:inline;
 
 }
 
+#navbar img{
+	width:18em;
+	padding-left: 5em;
+	padding-top: 1.5em;
+	float: left;
+
+}
 #main-heading {
 	font-family: Lato-Regular;
-	font-size: 4rem;
+	font-size: 4em;
 	color: #FFFFFF;
-	line-height: 4rem;
-	padding-left: 6rem;
-	padding-top: 14rem;
+	line-height: 1em;
+	padding-left: 2em;
+	padding-top: 3em;
+}
+
+#about-link{ 
+	padding-right: 5em
 }
 
 #text-orange {
 	font-family: Georgia;
-	font-size: 1.5rem;
-	letter-spacing: 0.05rem;
-	line-height: 2rem;
-	margin-left: 6rem;
-	margin-right: 30rem;
-	margin-top: 4rem;
-	padding: 1.5rem;
-	font-weight:200;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+	line-height: 1.5em;
+	margin-left: 5em;
+	margin-right: 18em;
+	margin-top: 2em;
+	padding: 1em;
+	font-weight:300;
 	background-color: rgba(253,172,42,0.85);
 	
-}
-
-h2 span {
-	background-color: rgba(253,172,42,0.79);
-
-}
-
-h1 span{
-	color: #FDAC2A;
-
-}
-
-#logo img {
-	width:20rem;
-	padding-bottom: 1rem;
-	padding-left: 6rem;
-	padding-top: 1.5rem;
-	float: left;
-
 }
 
 #lion-hero {
@@ -216,6 +232,7 @@ h1 span{
 	width:100%;
 	background-size: cover;
 	height: 60vh;
+	text-decoration: underline;
 
 }
 
@@ -225,5 +242,4 @@ h1 span{
 	height: 70vh;
 
 }
-
 

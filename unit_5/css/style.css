@@ -225,8 +225,6 @@ h1 span{
 	background: url(../images/hero2.jpg) no-repeat center center;
 	width:100%;
 	background-size: cover;
-	height: 100vh;
-
 }
 #contact-hero {
 	background: url(../images/hero3.jpg) no-repeat center center;
@@ -242,4 +240,10 @@ h1 span{
 	height: 70vh;
 
 }
-
+.clearfix:after, main>section:after {
+	content:".";
+	visibility:hidden;
+	clear:both;
+	display:block;
+	height:0;
+}

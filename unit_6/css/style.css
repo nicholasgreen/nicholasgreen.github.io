@@ -36,14 +36,6 @@ h1 span{
 	
 }
 
-.hero span{
-	font-size:3em
-	color:#ffffff;
-	text-align: center;
-	position:absolute;
-	margin: 0 auto;
-}
-
 .abouttwo {
 	padding: 4em 0;
 	background: url(../images/abouttwo.png) no-repeat left 33.33%;
@@ -134,13 +126,7 @@ h1 span{
 }
 
 #contact-hero h3 a:hover{
-	text-align: center;
-	text-decoration: none;
-	font-family: Lato;
-	font-weight: 600;
-	font-size: 4em;
 	color: #FDAC2A;
-	margin-top: 6em;
 
 }
 #navbar h2{

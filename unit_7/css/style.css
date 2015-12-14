@@ -199,8 +199,8 @@ h1 span{
 	font-size: 1.5em;
 	letter-spacing: 0.05em;
 	line-height: 1.5em;
-	margin-left: 5em;
-	margin-right: 14em;
+	width:70%;
+	margin:2em auto;
 	margin-top: 2em;
 	padding: 1em;
 	font-weight:300;
@@ -271,6 +271,27 @@ h1 span{
 	#expertise-hero h3 {
 	    width: 100%;
 	    margin: 0.5% 0 0 0;
+
+}	
+
+}
+
+@media only screen and (max-width:870px) {
+	#main-heading {
+	      font-size: 3em;
+}	#text-orange {
+	width:90%;
+}
+	#navbar h2{
+		display: none;
+	}
+
+}
+@media only screen and (max-width:650px) {
+	#main-heading {
+	      font-size: 2em;
+	      text-align: center;
+	      padding-left:0;
 
 }	
 
